@@ -2,6 +2,7 @@ import Cabecalho from "./screens/Cabecalho";
 import Navegacao from "./screens/Navegacao";
 import Corpo from "./screens/Corpo";
 import Rodape from "./screens/Rodape";
+import "./css/Styles.css";
 function App() {
   return(
     <div>

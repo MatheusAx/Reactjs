@@ -1,10 +1,75 @@
-.cimg {
-    width: 200px;
-    height: 150px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.rimg {
-    width: 200px;
-    height: 150px;
-    
+.superior {
+  background-color: #242221;
+  padding: 20px 0px;
+}
+.titulo {
+  text-align: center;
+  color: #fff;
+}
+nav {
+  background-color: #b3a9a6;
+  padding: 5px 0px;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container{
+  width: 80vw;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #efefef;
+  
+}
+
+.container .subtitulo{
+  text-align: center;
+  border-bottom: 4px double lightslategrey;
+}
+
+.container .tabela{
+  border: solid silver;
+  align-items : center;
+}
+
+.container .cabecalho{
+background-color:gray;
+color: white;
+}
+
+
+.container .cabecalho th{
+  padding: 2 px;
+}
+
+
+.container .corpo td {
+  width: 10%;
+  font-family: arial;
+  font-size: 9pt;
+  cursor: pointer;
+}
+
+.container .corpo tr{
+  transition: ease 1s;
+}
+
+.container .corpo tr:hover {
+  background-color: lightslategrey;
+}
+
+.rodape{
+  text-align: center;
 }
